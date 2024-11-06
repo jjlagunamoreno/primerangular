@@ -9,6 +9,7 @@ import { PrimerComponent } from './../components/primercomponent/primer.componen
 import { HooksAngular } from './../components/hooksangular/hooksangular.component';
 import { DeportesComponent } from './../components/deportes/deportes.component';
 import { FormsBindingComponent } from './../components/formsbinding/formsbinding.component';
+import { SumarnumerosComponent } from './../components/sumarnumeros/sumarnumeros.component';
 
 @NgModule({
   declarations: [
@@ -17,6 +18,7 @@ import { FormsBindingComponent } from './../components/formsbinding/formsbinding
     HooksAngular,
     DeportesComponent,
     FormsBindingComponent,
+    SumarnumerosComponent,
   ],
   imports: [
     BrowserModule,
